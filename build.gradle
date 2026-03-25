@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'es.ilerna'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.sf.xmldb-org:xmldb-api:1.7.0'
+    implementation 'org.exist-db:exist-core:5.2.0'
+}
+
+application {
+    mainClass = 'es.ilerna.m0486.ra3.pt2.Main'
+}

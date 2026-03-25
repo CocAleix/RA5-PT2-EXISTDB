@@ -1,0 +1,20 @@
+# ==== IDEs ====
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ==== Gradle / Java ====
+.gradle/
+build/
+bin/
+*.class
